@@ -1,0 +1,12 @@
+/*main*/
+#main_area{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:1000px;}
+	.main_con{min-height:0;padding:0;}
+		/* Tutorial */
+		main .main_content{animation-duration:3000ms !important;}
+		main .main_boxes{display:flex;justify-content:center;flex-wrap:wrap;width:600px;margin:0 auto;max-width:100%;}
+		main .main_boxes figure{width:300px;}
+		main .main_boxes img{filter: blur(20px);-webkit-filter: blur(20px);}
+		main .content{margin:30px auto 0;animation-duration:1500ms !important;}
+		main h2{font-size:60px;line-height:100%;}
+		main audio{width:100%;background:#fff;}
+/*end main*/

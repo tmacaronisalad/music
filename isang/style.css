@@ -1,0 +1,9 @@
+/*main*/
+#main_area{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:1200px;}
+#main_area.wider{width:1400px;}
+	.main_con{min-height:0;padding:0;}
+		/* Tutorial */
+		main .h1_title{font-size:140px;line-height:100%;animation-duration:5000ms !important;margin-bottom:40px;}
+		main a{display:block;width:250px;background:#e63838;line-height:60px;color:#fff;text-align:center;margin:30px auto 0;border-radius:40px;animation-duration:3000ms !important;animation-delay:4000ms !important;}
+		main a:hover{background:#38e64d;}
+/*end main*/

@@ -1,0 +1,13 @@
+/*main*/
+#main_area{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:1000px;}
+	.main_con{min-height:0;padding:0;}
+		/* Tutorial */
+		main .main_boxes{display:flex;justify-content:space-between;}
+		main .main_boxes section{width:500px;height:auto;animation-duration:3000ms !important;}
+		main .main_boxes section audio{width:100% !important;background:#fff;}
+		main .main_boxes section h2{font-size:50px;line-height:100%;}
+		main .main_boxes section h2 span{display:block;}
+		main .main_boxes section .content{margin:30px auto 0;}
+		main .main_boxes .main_box1{animation-delay:3000ms !important;}
+		main .main_boxes .main_box2{animation-delay:6000ms !important;}
+/*end main*/

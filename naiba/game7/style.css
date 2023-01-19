@@ -1,0 +1,25 @@
+/*main*/
+#main_area{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:900px;}
+	.main_con{min-height:0;padding:0;}
+		/* Tutorial */
+		main .main_boxes{display:flex;justify-content:center;flex-wrap:wrap;}
+		main .main_boxes section{width:250px;height:auto;animation-duration:2000ms !important;margin:15px 25px;}
+		main .main_boxes section figure{position:relative;}
+		main .main_boxes section figure span{position:absolute;bottom:10px;right:10px;line-height:100%;font-size:50px;text-shadow:10px 10px 30px #000;}
+		main .main_boxes section img{width:100%;}
+		main .main_boxes section audio{width:100% !important;background:#fff;}
+		main .main_boxes section h2{font-size:40px;line-height:100%;}
+		main .main_boxes section h2 span{display:block;}
+		main .main_boxes section .content{margin:20px auto 0;}
+		main .main_boxes section .content_answer{animation-duration:3000ms !important;animation-delay:4000ms !important;}
+		main .main_boxes section h3{font-size:50px;line-height:100%;}
+		main .main_boxes section h3 span{display:block;}
+		main .main_boxes section h1{font-size:60px;line-height:100%;color:#e69138;margin:20px auto 0;}
+		main .main_boxes .main_box1{animation-delay:3000ms !important;}
+		main .main_boxes .main_box2{animation-delay:5000ms !important;}
+		main .main_boxes .main_box3{animation-delay:7000ms !important;}
+		main .main_boxes .main_box4{animation-delay:9000ms !important;}
+		main .main_boxes .main_box5{animation-delay:11000ms !important;}
+		main .main_boxes .main_box6{width:500px;margin:0 auto;}
+		main .main_boxes .main_box6 .content{margin:40px auto 0;}
+/*end main*/

@@ -1,0 +1,20 @@
+/*main*/
+#main_area{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:1200px;}
+	.main_con{min-height:0;padding:0;}
+
+		main .h1_title{font-size:150px;line-height:100%;animation-duration:5000ms !important;}
+		main a{display:block;width:300px;background:#e69138;line-height:70px;color:#fff;text-align:center;border-radius:40px;animation-duration:3000ms !important;animation-delay:5000ms !important;margin:40px auto 0;}
+		main a:hover{background:#2196f3 !important;}
+/*end main*/
+
+/* main - result */
+#main_area2{width:1000px;margin:0 auto;max-width:100%;padding:100px 0;}
+	.main_con{min-height:0;padding:0;}
+
+		main.result .h1_title{font-size:100px;line-height:100%;animation-duration:5000ms !important;margin-bottom:50px;}
+		main.result .main-entry{animation-duration:3000ms !important;animation-delay:5000ms !important;}
+		main.result .flexbox{display:flex;justify-content:space-between;flex-wrap:wrap;margin-bottom:40px;font-size:50px;line-height:100%;}
+		main.result .col1{width:75%;text-align:left;}
+		main.result .col2{width:25%;text-align:right;}
+		.celebration1{position:absolute;top:50px;right:50px;width:400px;display:none;}
+		.celebration2{position:absolute;top:50px;left:50px;width:400px;display:none;}
